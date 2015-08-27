@@ -1,0 +1,33 @@
+<ons-navigator title="Navigator" var="bankNavigator">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button ng-click="menu.toggle()">
+            <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">Find Bank Branches</div>
+      </ons-toolbar>
+
+      <ons-row style="padding: 0">
+        <ons-col align="center">
+
+        <ons-list>
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/bancabc.html', { animation : 'slide' } )">Banc ABC</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/barclays.html', { animation : 'slide' } )">Barclays Bank</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/cabs.html', { animation : 'slide' } )">CABS</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/cbz.html', { animation : 'slide' } )">CBZ Bank</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/mbca.html', { animation : 'slide' } )">MBCA Bank</ons-list-item>         
+
+           <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/stanbic.html', { animation : 'slide' } )">Stanbic Bank</ons-list-item>
+
+        </ons-list>
+
+        </ons-col>
+      </ons-row>
+    </ons-page>
+  </ons-navigator>

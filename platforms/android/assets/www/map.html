@@ -1,0 +1,58 @@
+<ons-tabbar>
+  <ons-tabbar-item page="near-branch.html" label="Branch Near You" icon="fa-university" active="true" onClick="findBranch();"></ons-tabbar-item>
+  <ons-tabbar-item page="near-atm.html" label="ATM Near You" icon="fa-credit-card" onClick="findAtm();"></ons-tabbar-item>
+</ons-tabbar>
+
+<ons-template id="near-branch.html">
+  <ons-page>
+    <ons-toolbar>
+          <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+              <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+          </div>
+      <div class="center">Branch Near You</div>
+    </ons-toolbar>
+    <div class="message center">
+      <img src="images/touch-icon.png">
+      <h4>Select Branch or ATM to Find Near You!</h4>
+      <ons-icon icon="fa-arrow-down"></ons-icon>
+    </div>
+    <div class="map-container">
+      <div id="branch-map-canvas"></div>
+    </div>
+    </ons-page>
+</ons-template>
+
+
+
+<ons-template id="map.html">
+  <ons-page>
+    <ons-toolbar>
+          <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+              <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+          </div>
+      <div class="center">Find Near You</div>
+    </ons-toolbar>
+  </ons-page>
+</ons-template>
+
+
+
+<ons-template id="near-atm.html">
+  <ons-page>
+    <ons-toolbar>
+          <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()">
+              <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+            </ons-toolbar-button>
+          </div>
+      <div class="center">ATM Near You</div>
+    </ons-toolbar>
+    <div class="map-container">
+      <div id="atm-map-canvas"></div>
+    </div>
+  </ons-page>
+</ons-template>

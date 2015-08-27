@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="app.chribles.zablo" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>zablo - Zim ATM Banks Locator</name>
+    <description>
+        A Zimbabwe atm and banks locator/directory app.
+    </description>
+    <author email="apps@chribles.net" href="http://chribles.net">
+        Chribles
+    </author>
+    
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="*.google.com"/>
+    <access origin="*.googleapis.com"/>
+    <access origin="tel:*" launch-external="yes"/>
+	<access origin="geo:*" launch-external="yes"/>
+	<access origin="mailto:*" launch-external="yes"/>
+	<access origin="sms:*" launch-external="yes"/>
+	<access origin="market:*" launch-external="yes"/>
+	<access origin="*" launch-external="yes" />
+	
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    
+    <platform name="android">
+        <!-- you can use any density that exists in the Android project -->
+        <splash src="res/drawable-land-hdpi/screen.png" density="land-hdpi"/>
+        <splash src="res/drawable-land-ldpi/screen.png" density="land-ldpi"/>
+        <splash src="res/drawable-land-mdpi/screen.png" density="land-mdpi"/>
+        <splash src="res/drawable-land-xhdpi/screen.png" density="land-xhdpi"/>
+        <splash src="res/drawable-port-hdpi/screen.png" density="port-hdpi"/>
+        <splash src="res/drawable-port-ldpi/screen.png" density="port-ldpi"/>
+        <splash src="res/drawable-port-mdpi/screen.png" density="port-mdpi"/>
+        <splash src="res/drawable-port-xhdpi/screen.png" density="port-xhdpi"/>
+    </platform>		
+    
+</widget>

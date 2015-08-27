@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Bank &amp; ATM Finder</title>  
+
+<!-- Stylesheets--> 
+  <link rel="stylesheet" href="lib/onsen/css/onsenui.css">  
+  <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+  <link rel="stylesheet" href="styles/mapsed.css"/>
+  <link rel="stylesheet" href="styles/app.css"/>
+  <link rel="stylesheet" href="styles/fonts.css"/>
+<!-- Stylesheets--> 
+
+<!-- Scripts-->
+  <script src="lib/onsen/js/angular/angular.js"></script>    
+  <script src="lib/onsen/js/onsenui.js"></script>    
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/bank-list.js"></script>
+  <script src="js/atm-list.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/mapsed.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDNF3v1-i1Awwh4Bw7rzB1PX51Rh8bY_fc&libraries=places&sensor=false"></script>
+<!-- Scripts-->
+
+<!-- Onsen App initialization-->   
+  <script>
+    var module = angular.module('app', ['onsen']);
+  </script>
+
+</head>
+
+<body>    
+
+<!-- Left Sliding Menu Started -->   
+
+  <!-- Sliding Menu Defined -->
+  <ons-sliding-menu
+    menu-page="menu.html" main-page="home.html" side="left"
+    var="menu" type="reveal" max-slide-distance="260px" swipable="true">
+  </ons-sliding-menu>
+<!-- Sliding Menu Defined -->
+
+<!-- Left Menu Content (template)-->
+  <ons-template id="menu.html">
+    <ons-page modifier="menu-page">
+  <div class="menu-overlay"></div>
+    <img class="logo" src="images/touch-icon.png">
+      <ons-list class="menu-list">
+        <ons-list-item class="menu-item" ng-click="menu.setMainPage('home.html', {closeMenu: true})">
+          <ons-icon icon="fa-home"></ons-icon>
+          Home
+        </ons-list-item>
+        <ons-list-item class="menu-item" modifier="chevron" ng-click="menu.setMainPage('find-bank.html', {closeMenu: true})">
+          <ons-icon icon="fa-location-arrow"></ons-icon>
+          Find Banks
+        </ons-list-item>
+        <ons-list-item class="menu-item" modifier="chevron" ng-click="menu.setMainPage('find-atm.html', {closeMenu: true})">
+          <ons-icon icon="fa-location-arrow"></ons-icon>
+          Find ATMs
+        </ons-list-item>
+
+        <ons-list-item class="menu-item" modifier="chevron" ng-click="menu.setMainPage('map.html', {closeMenu: true})">
+          <ons-icon icon="fa-map-marker"></ons-icon>
+          Near You
+        </ons-list-item>
+      </ons-list>
+
+
+        <ons-list-item class="bottom-menu-item" ng-click="menu.setMainPage('developer.html', {closeMenu: true})">
+        <ons-icon icon="fa-code"></ons-icon>
+          Developer
+        </ons-list-item>
+        <ons-list-item class="bottom-menu-item">
+        <ons-icon icon="fa-android"></ons-icon>
+          <a href="#" onclick="var ref = window.open('https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_ID', '_system', 'location=yes');">Check for Update</a>
+        </ons-list-item>
+      </ons-list>
+    </ons-page>
+  </ons-template>
+  <!-- Left Menu Content-->
+<!-- Left Sliding Menu Ended -->  
+
+<!-- Home Page Template-->
+  <ons-template id="home.html">
+  <ons-navigator title="Navigator" var="homeNavigator">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button ng-click="menu.toggle()">
+            <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">Bank &amp; ATM Finder</div>
+      </ons-toolbar>
+
+      <ons-row style="padding: 50px 30px">
+        <ons-col align="center">
+          <ons-button class="home-btn" modifier="large" onclick="homeNavigator.pushPage('find-bank.html', { animation : 'slide' } )"><ons-icon icon="fa-location-arrow"></ons-icon> Find Branch <b></b></ons-button><br>
+          <ons-button class="home-btn" modifier="large" onclick="homeNavigator.pushPage('find-atm.html', { animation : 'slide' } )"><ons-icon icon="fa-location-arrow"></ons-icon> Find ATM Booth <b></b></ons-button><br>
+          <ons-button class="home-btn" modifier="large" onclick="homeNavigator.pushPage('map.html', { animation : 'slide' } )"><ons-icon icon="fa-map-marker"></ons-icon> Find Near You <b></b></ons-button>
+        </ons-col>
+      </ons-row>
+    </ons-page>
+  </ons-navigator>
+  </ons-template>
+<!-- Home Page Template End-->
+
+
+<!-- Developer Page Template-->
+  <ons-template id="developer.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button ng-click="menu.toggle()">
+            <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">About Developer</div>
+      </ons-toolbar>
+
+      <ons-row style="padding: 10px 20px; color:#354749;">
+        <ons-col align="center">
+        <h3 style="text-align:center; font-size: 16px;">Bank &amp; ATM Finder is a <span style="color:#f54128;">Codetic</span> Production</h3>
+        <img style="margin: 0 auto; display: block; width: 70%" src="images/codetic.png">
+
+        <address>
+
+            <a href="#" onclick="var ref = window.open('tel:+8801715867854', '_system', 'location=yes');">
+              <p><ons-icon icon="fa-phone"fixed-width="true"></ons-icon> +8801715 867 854 </p>
+            </a>
+
+            <a href="#" onclick="var ref = window.open('mailto:apps@codetic.net', '_system', 'location=yes');">
+              <p><ons-icon icon="fa-envelope"fixed-width="true"></ons-icon>apps@codetic.net</p>
+            </a>
+
+            <a href="#" onclick="var ref = window.open('http://www.codetic.net', '_system', 'location=yes');">
+              <p><ons-icon icon="fa-globe"fixed-width="true"></ons-icon>www.codetic.net </p>
+            </a>
+           
+        </address>
+                       
+            <a href="#" onclick="var ref = window.open('https://play.google.com/store/apps/developer?id=YOUR_DEVELOPERS_ID', '_system', 'location=yes');"><p style="margin: 20px auto; background:#A65B49; color: #fff; width: 90%; display: block; padding: 10px 5px; text-align:center;">
+              <ons-icon icon="fa-android"fixed-width="true"></ons-icon> More Apps from Codetic </p> 
+            </a>
+         
+        </ons-col>
+      </ons-row>
+    </ons-page>
+  </ons-template>
+<!-- Developer Page Template End-->
+
+</body>
+</html>

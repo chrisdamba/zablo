@@ -1,0 +1,42 @@
+<ons-navigator title="Navigator" var="bankNavigator">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-toolbar-button ng-click="menu.toggle()">
+            <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">Find Bank Branches</div>
+      </ons-toolbar>
+
+      <ons-row style="padding: 0">
+        <ons-col align="center">
+
+        <ons-list>
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex1-bank.html', { animation : 'slide' } )">Example Bank 1 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex2-bank.html', { animation : 'slide' } )">Example Bank 2 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex3-bank.html', { animation : 'slide' } )">Example Bank 3 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex4-bank.html', { animation : 'slide' } )">Example Bank 4 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex5-bank.html', { animation : 'slide' } )">Example Bank 5 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex6-bank.html', { animation : 'slide' } )">Example Bank 6 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex7-bank.html', { animation : 'slide' } )">Example Bank 7 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex8-bank.html', { animation : 'slide' } )">Example Bank 8 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex9-bank.html', { animation : 'slide' } )">Example Bank 9 Limited</ons-list-item>
+
+          <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="bankNavigator.pushPage('bank/ex10-bank.html', { animation : 'slide' } )">Example Bank 10 Limited</ons-list-item>
+
+
+        </ons-list>
+
+        </ons-col>
+      </ons-row>
+    </ons-page>
+  </ons-navigator>
