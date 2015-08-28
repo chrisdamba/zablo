@@ -1,6 +1,36 @@
 // Bank Branch List
 
 
+function agribankBankList($scope){
+
+    $scope.branches = [
+        {
+            "name": " Head Office",
+            "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare, Zimbabwe",
+            "phone": ' 263 4 369701-15 '
+        },
+        {
+            "name": " Head Office",
+            "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare, Zimbabwe",
+            "phone": ' 263 4 369701-15 '
+        },
+        ,
+        {
+            "name": " Head Office",
+            "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare, Zimbabwe",
+            "phone": ' 263 4 369701-15 '
+        },,
+        {
+            "name": " Head Office",
+            "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare, Zimbabwe",
+            "phone": ' 263 4 369701-15 '
+        }
+    ];
+    $scope.orderList = "name";
+}
+
+
+
 // Banc ABC Bank
 
 function bancabcBankList($scope) {
