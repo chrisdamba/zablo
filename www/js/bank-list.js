@@ -14,7 +14,7 @@ function bancabcBankList($scope) {
      "phone": ' 263 4 369701-15 '},
 
     {"name": " ABC Stockbrokers",
-     "address": "67 Samora Machel Avenue, 1st Floor, Heritage House, Harare",
+     "address": "67 Samora Machel Avenue, 1st Floor, Heritage House, Harare, Zimbabwe",
      "phone": ' 263 4 703071-9, 263  752756-9 '},
 
     {"name": " Bindura Branch",
