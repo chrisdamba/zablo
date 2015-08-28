@@ -10,7 +10,7 @@ function bancabcBankList($scope) {
      "phone": ' 263 4 369701-15 '},
 
     {"name": " ABC Asset Management",
-     "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare",
+     "address": "1 Endeavour Crescent, Mt Pleasant Business Park, Mt Pleasant, Harare, Zimbabwe",
      "phone": ' 263 4 369701-15 '},
 
     {"name": " ABC Stockbrokers",
