@@ -571,6 +571,158 @@ function ecoBankList($scope) {
   $scope.orderList = "name";
 }
 
+// FBC
+
+function fbcBankList($scope) {
+  $scope.branches = [
+    {"name": " Private Bank",
+     "address": "2 Lanark Rd,Belgravia,Harare",
+     "phone": ' +263 4 251972/ 251975/ 251976 '},
+
+    {"name": " Leopold Takawira",
+     "address": "113 Leopold Takawira Street,",
+     "phone": '  '},
+
+    {"name": " Samora Machel",
+     "address": "76 Samora Machel Ave,Harare ",
+     "phone": ' '},
+
+    {"name": " FBC Centre",
+     "address": "45 Nelson Mandela Ave,Harare",
+     "phone": ' 263 4 783203-8 / 783211 /797759  '},
+
+    {"name": " Msasa",
+     "address": "104 Mutare Road,Msasa ",
+     "phone": ' +263 4 446806-10 '},
+
+    {"name": " Southerton",
+     "address": "11 Highfields Junction Shops,Southerton,Harare  ",
+     "phone": ' +263 4 754536/7/8  '},
+
+    {"name": " 34 Nelson Mandela ",
+     "address": "34 Nelson Mandela, Harare",
+     "phone": ' 263 4 783206-9/ 797759 '},
+
+    {"name": " Chitungwiza",
+     "address": "No 197 Tilcor Township , Seke Chitungwiza ",
+     "phone": ' 263 270 30212/ 31016/ 3160 '},
+
+    {"name": " Chinhoyi",
+     "address": "5309, Magamba Way, Chinhoyi   ",
+     "phone": ' +263 67 24086 /25308/28071   '},
+
+    {"name": " Kwekwe ",
+     "address": "45B Robert Mugabe Avenue, Kwekwe ",
+     "phone": ' +263 055 24116/24160/24191  '},
+
+    {"name": " Gweru BS ",
+     "address": "71A 6th Street,Gweru  ",
+     "phone": ' '},
+
+    {"name": " Mutare ",
+     "address": "No 50B Herbert Chitepo, Mutare  ",
+     "phone": ' +263 20 62949 62586   '},
+
+    {"name": " FBC Bank Bulawayo  ",
+     "address": "108 Jason Moyo Street & 11th Ave  ",
+     "phone": ' +263 9 76079 / 76371 / 64397 / 889728/ 68867 '},
+
+    {"name": "Building Society Bulawayo  ",
+     "address": "109 R. Mugabe Way/11th Avenue Bulawayo   ",
+     "phone": ' +263 9 76371/76079   '},
+
+    {"name": " Zvishavane  ",
+     "address": "98 Robert Mugabe Avenue   ",
+     "phone": ' +263 051 2176/7  '},
+
+    {"name": " Masvingo  ",
+     "address": "  179 Robertson Street,Masvingo ",
+     "phone": '  '},
+
+    {"name": " Victoria Falls",
+    "address": "Shop 4 & 5 Galleria Complex ,Victoria Falls ",
+    "phone": '+263 13 45995/6 '}
+
+
+  ];
+  $scope.orderList = "name";
+}
+
+// Interfin
+
+
+function interfinBankList($scope) {
+  $scope.branches = [
+    {"name": " Beitbridge Branch",
+     "address": "Shop 35Stand 449, Living Waters Centre, Beitbridge",
+     "phone": ' (0286)22951 '},
+
+    {"name": " Bulawayo Branch",
+     "address": "100 Jason Moyo Street",
+     "phone": ': (09)880556 / 57 / 58 / 59 / 60 / 61, 880564, 880566 / 67  '},
+
+    {"name": " Century Towers",
+     "address": "Ground Floor 45 Samora Machel Avenue,Harare ",
+     "phone": '(04)755023,775019 / 20 / 21 / 22, 775024, 777170 / 71 / 72 / 73 / 74 / 75 / 76 / 77 / 78 / 79 '},
+
+    {"name": " Chipinge Branch",
+     "address": "Stand 15 Main Street",
+     "phone": ' (0227204)2810, 2813  '},
+
+    {"name": " xecutive Banking Branch",
+     "address": "10 Londonderry Avenue,Eastlea,Harare ",
+     "phone": ' (04)704339, 790327 / 28 / 29 '},
+
+    {"name": " Gokwe Branch",
+     "address": "Stand 1070, Gokwe  ",
+     "phone": '  (059)2260 / 61 / 62  '},
+
+    {"name": " Gweru Branch ",
+     "address": "153 Main Street, Gweru",
+     "phone": '(054)231891 / 92 / 93 / 94  '},
+
+    {"name": " Head Office Branch",
+     "address": "Block 4, Tendeseka Office Park, Samora Machel Avenue, Harare ",
+     "phone": ' : (04)700065, 700093, 700644, 750811, 750854, 799491  '},
+
+    {"name": " DStv Payments Centre",
+     "address": "Avondale Post Office, 18 Lonsdale Road, Avondale, Harare   ",
+     "phone": ' 04)2900751, 2901402  '},
+
+    {"name": " DStv Payments Centre Byo",
+     "address": "Suite 4, Peppermint Place, Cnr. 11th Avenue/George Silundika Street, Bulawayo ",
+     "phone": '  (09)885134 / 35, 885135 / 36 / 37 / 38  '},
+
+    {"name": " Kariba Heights Branch ",
+     "address": "Stand 23 Msasa Drive  ",
+     "phone": '(0261214)2303 / 04, 2543 / 44  '},
+
+    {"name": " Masvingo Branch ",
+     "address": "Stand 375, Old Mutual House, Robert Mugabe Street, Masvingo  ",
+     "phone": '  (039)2655576, 265655, 265668, 265676  '},
+
+    {"name": " Mutare Branch  ",
+     "address": "Shop 2A Ground Floor, Fidelity Life, Herbert Chitepo Street, Mutare  ",
+     "phone": '  (020)61885, 61930, 61935, 61978, 62004, 62062 / 63, 640555  '},
+
+    {"name": "Ngezi Branch  ",
+     "address": "Shop 5, Ngezi Shopping Centre   ",
+     "phone": ' 0712604777  '},
+
+    {"name": "  Nyamhunga Branch ",
+     "address": "Stand 625 Nyamhunga Shopping Centre   ",
+     "phone": ' (0261214)2731, 2774  '},
+
+    {"name": " Social security Centre Branch  ",
+     "address": "  Ground Floor, Cnr. Julius Nyerere/ Sam Nujoma Street, Harare ",
+     "phone": ' (04)251037 / 38 / 39 / 40 / 41 / 42 / 43, 251340 / 41, 251506, 790791 / 92 / 93 / 94, 790901 / 02 / 03 / 04 / 05 / 06 / 07 / 08  '}
+
+
+  ];
+  $scope.orderList = "name";
+}
+
+
 
 // MBCA Bank
 
