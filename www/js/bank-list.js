@@ -669,7 +669,7 @@ function interfinBankList($scope) {
      "address": "Stand 15 Main Street",
      "phone": ' (0227204)2810, 2813  '},
 
-    {"name": " xecutive Banking Branch",
+    {"name": " Executive Banking Branch",
      "address": "10 Londonderry Avenue,Eastlea,Harare ",
      "phone": ' (04)704339, 790327 / 28 / 29 '},
 
@@ -768,6 +768,310 @@ function mbcaBankList($scope) {
   $scope.orderList = "name";
 }
 
+// Metropolitan
+
+function metroBankList($scope) {
+  $scope.branches = [
+    {"name": " Beitbridge Branch",
+     "address": "40/41 Living Waters Centre",
+     "phone": ' 0779745989'},
+
+    {"name": " Belgravia Branch",
+     "address": "8 Lanark Road, Belgravia, Harare",
+     "phone": '(04)702257, 703335 '},
+
+    {"name": " Rubi River Bridge Branch",
+     "address": "Bubi RDC Complex, Turk Mine ",
+     "phone": ' (085)526, 577 '},
+
+    {"name": " Bulawayo Branch",
+     "address": "4 East End Building, Cnr. Robert Mugabe/9th Avenue, Bulawayo",
+     "phone": ' : (09)880697, 880767 '},
+
+    {"name": " Chimanimani Branch",
+     "address": "Hotsprings Resort, Chimanimani ",
+     "phone": ' 0744598202, 0774598207  '},
+
+    {"name": " Chitungwiza  Agency Branch",
+     "address": "Std 213646 Zengeza 2, Chitungwiza  ",
+     "phone": ' (0270),23504 '},
+
+    {"name": " Chitungwiza Branch ",
+     "address": "Stand 16110,Makoni Shopping Centre, Seke, Chitungwiza",
+     "phone": ' (0270)31362, 31503, 31519 '},
+
+    {"name": " Gwanda Branch",
+     "address": "185 Soudan Street ",
+     "phone": ' : (0284)24241 / 42 / 43 / 44 '},
+
+    {"name": " Gweru Branch",
+     "address": "Gweru Polytechnic Campus, 137 Harare Road, Gweru   ",
+     "phone": '0772233471 '},
+
+    {"name": "Gweru Main Branch",
+     "address": "66 3rd Street ",
+     "phone": '  (054)229979  '},
+
+    {"name": "Harare Polytechnic Branch ",
+     "address": "Herbert Chitepo West Avenue, Harare  ",
+     "phone": ' (04)250393, 250423 '},
+
+    {"name": " Head Office Branch ",
+     "address": "3 Central Avenue, Harare Central, Harare  ",
+     "phone": '   (04)705861, 706091 '},
+
+    {"name": " Kwame Nkurumah Branch  ",
+     "address": "25 Kwame Nkrumah Avenue  ",
+     "phone": '   (04)773401, 773546, 774964 '},
+
+    {"name": "Kwekwe Branch  ",
+     "address": "Kwekwe Polytechnic, 1 Railway Road, Kwekwe   ",
+     "phone": ' (055)25273  '},
+
+    {"name": "  Machipisa Branch ",
+     "address": "Stand 1498, Tondori Building, Harare   ",
+     "phone": '  (04)666663   '},
+
+    {"name": " Masvingo Agency Branch  ",
+     "address": " Masvingo Polytechnic, Beitbridge Road, Masvingo ",
+     "phone": '  (039)266206 / 07 / 08   '}
+
+    {"name": "Masvingo Main Branch ",
+     "address": "58/59 Hellet Street  ",
+     "phone": '  (039)266727 / 28 / 29 / 30 '},
+
+    {"name": " Mbare Branch ",
+     "address": "8 Roden Street, Magaba  ",
+     "phone": '   0779744588  '},
+
+    {"name": " Murewa Branch ",
+     "address": "Stand 564, Murewa   ",
+     "phone": '   (078)22747 / 48  '},
+
+    {"name": "Mutare Branch  ",
+     "address": "Shop 1 Zimre Centre, Cnr. Herbert Chitepo/5th Street, Mutare   ",
+     "phone": '  (020)69350 '},
+
+    {"name": "  Mutoko Branch ",
+     "address": "Shop 1, BJ Mall, Stand 46/47 Oliver Newton Road, Mutoko   ",
+     "phone": '   (0272)2631, 2763, 2789 '},
+
+    {"name": " Sam Nujoma Street Branch  ",
+     "address": " Old Mutual House, 18 Sam Nujoma Street, Harare ",
+     "phone": '   (04)708487, 799121 '},
+
+    {"name": " Southerton Branch  ",
+     "address": " Cnr. Paisley/Highfield Road ",
+     "phone": '    (04)2911134, 2911139  '},
+    
+  ];
+  $scope.orderList = "name";
+}
+
+// NMB
+
+function nmbBankList($scope) {
+  $scope.branches = [
+    {"name": "Angwa City Branch",
+     "address": "Mezzanine Floor, Angwa City, Angwa Street, Harare",
+     "phone": ' (04)759803, 759805, 759825, 798865 / 66 / 67, 798869 ',
+
+    {"name": " Avondale Branch",
+     "address": "PaSangano Complex, 20 King George Road, Harare",
+     "phone": ' (04)708391 / 92 / 93 / 94 / 95  '},
+
+    {"name": " Borrowdale Branch",
+     "address": "Shop 37-38, Sam Levy's Village, Borrowdale Road, Borrowdale, Harare ",
+     "phone": ' (04)850983 / 84 / 85 / 86 / 87 / 88 / 89 '},
+
+    {"name": " Cards and E Banking - Harare Branch",
+     "address": "Ground Floor, Unity Court, Kwame Nkrumah Avenue, Harare",
+     "phone": '  (04)798851 / 52 / 53 / 54, 798856 / 57 / 58 / 59 '},
+
+    {"name": "  Corporate Banking Division Branch",
+     "address": "9 Plymouth Road, Southerton, Harare ",
+     "phone": ' (04)751228 / 29, 775150 / 51 / 52 '},
+
+    {"name": " Eastgate Branch",
+     "address": "Ground Floor, Eastgate Shopping Centre, Robert Mugabe Road, Harare ",
+     "phone": '  (04)797362 / 63 / 64 / 65 / 66 / 67 / 68 / 69 '},
+
+    {"name": " Gweru Branch ",
+     "address": "36 Robert Mugabe Road, Central Gweru, Gweru",
+     "phone": ' (054)226020 / 21 / 22 / 23, 226034 / 35 / 36 / 37, 227705 '},
+
+    {"name": " Head Office Harare Branch",
+     "address": " First Floor, Unity Court, Kwame Nkrumah Avenue, Central Harare, Harare ",
+     "phone": '  (04)759651 / 52 / 53 / 54, 759656 / 57 / 58 / 59  '},
+
+    {"name": " Head Office Bulawayo Branch",
+     "address": " George Silundika Avenue, Central Bulawayo, Bulawayo  ",
+     "phone": ' (09)882060 / 61 / 62 / 63 / 64 / 65 / 66 / 67, 886628 / 29 / 30 / 31 / 32 / 33 / 34 / 35  '},
+
+    {"name": "Joina City Harare Branch",
+     "address": "Jason Moyo Avenue, Central Harare ",
+     "phone": ' (04)777451 / 52 / 53 / 54, 777456 / 57 / 58 / 59 / 60 / 61 / 62 '},
+
+    {"name": " Msasa Branch ",
+     "address": " 77 Amby Drive, Msasa, Harare ",
+     "phone": ' (04)446100 / 01 / 02 / 03 / 04 / 05 / 06 / 07 / 08 / 09 '},
+
+    {"name": " Mutare Branch ",
+     "address": " Embassy Building, , 64 Second Street, Mutare ",
+     "phone": ' (020)69136 / 37 / 38 / 39 / 40 / 41 / 42 / 43 / 44 / 45 '},
+
+    {"name": " Southerton Branch  ",
+     "address": " 9 Plymouth Road, Southerton, Harare ",
+     "phone": ' (04)773901, 775150 / 51 / 52 '}
+
+  ];
+  $scope.orderList = "name";
+}
+
+// POSB
+
+function posbBankList($scope) {
+  $scope.branches = [
+    {"name": "Head office Branch",
+     "address": "Causeway Building, Corner 3rd Street and Central Avenue, 5th Floor, Harare",
+     "phone": ' +2634 793831-9 ',
+
+    {"name": " Bindura Branch",
+     "address": "Shop No.1 NSSA Complex, Artherstone Road, Bindura",
+     "phone": '  +263-271-7481/7991 '},
+
+    {"name": " Bulawayo Main Branch",
+     "address": "Corner Main Street/ L.Takawira ",
+     "phone": ' 263-9-74023/79212 '},
+
+    {"name": " Causeway Branch",
+     "address": "Corner Central Ave/Third Street, Harare",
+     "phone": '  +263-4-745895'},
+
+    {"name": "  Chiedza Branch",
+     "address": "68 Kwame Nkrumah, Harare ",
+     "phone": '  +263-4-703647/8 '},
+
+    {"name": " Chinhoyi Branch",
+     "address": "135 Midway Street, Chinhoyi ",
+     "phone": '  +263-67-25309 '},
+
+    {"name": " Chiredzi Branch ",
+     "address": "Old Mutual Shopping Complex, Chiredzi",
+     "phone": ' +236-31-2200/33'},
+
+    {"name": " Chitungwiza Branch",
+     "address": " Chitungwiza Town Centre ",
+     "phone": '  +263-70-21985/7'},
+
+    {"name": " Esteem Bank Branch Harare",
+     "address": " Exhibition Park, Harare Showgrounds  ",
+     "phone": ' +263-4-774172  '},
+
+    {"name": "Esteem Bank Branch Byo",
+     "address": "Ascot Shopping Centre ",
+     "phone": ' +263-9-64321/27 '},
+
+    {"name": " Fort Street Branch ",
+     "address": " Corner Fort St/Dr. Antony Taylor Ave, Bulawayo ",
+     "phone": ' +263-9-67328/64118 '},
+
+    {"name": " Gokwe Branch ",
+     "address": " Intermarket House, Gokwe Centre ",
+     "phone": ' +263-59-2764/2798 '},
+
+    {"name": " Gwanda Branch  ",
+     "address": " 169 Sandton Street, Gwanda ",
+     "phone": ' +263-84-22433/22441 '}
+
+    {"name": "Gweru Branch",
+     "address": "Corner 7th Street/Robert Mugabe, Gweru",
+     "phone": ' +263-54-220545/222798 ',
+
+    {"name": " Harare Main Branch",
+     "address": "Mezzanine Floor, Main Post Office, Corner Inez Terez, Nelson Mandela, ",
+     "phone": '  +263-4-773635/773637 '},
+
+    {"name": " Haylet House Branch",
+     "address": "Bulawayo ",
+     "phone": ' +263-9-76911/79205 '},
+
+    {"name": "  Highglen Branch",
+     "address": "Shop 18, Highglen Complex, Harare",
+     "phone": '  +263-4-691920,691875,692498'},
+
+    {"name": "  Kadoma Branch",
+     "address": "28A Herbert Chitepo Street, Kadoma ",
+     "phone": '  +263-68-2418/23988 '},
+
+    {"name": " Kopje Plaza Branch",
+     "address": "Corner Jason Moyo Ave, Rotten Row Rd, Harare ",
+     "phone": ' +263-55-24575/7'},
+
+    {"name": " Karoi Branch ",
+     "address": "42 Fred Jameson Avenue, Karoi",
+     "phone": ' +263-64-7917/7911/7810'},
+
+    {"name": " Kwekwe Branch",
+     "address": " 2 Kings Avenue, Kwekwe ",
+     "phone": '+263-55-24575/7 '},
+
+    {"name": " Marondera Branch ",
+     "address": " Stand 1137, Second Street, Marondera ",
+     "phone": ' +263-79-22980/2 '},
+
+    {"name": " Masvingo Branch",
+     "address": "48 Hughes Road, Masvingo ",
+     "phone": ' +263-9-264309/264311 '},
+
+    {"name": " Mbare Branch ",
+     "address": " Mbare Musika, Zimpost Building ",
+     "phone": ' +263-04-251454. '},
+
+    {"name": " Mutare Branch ",
+     "address": " Stand 4001 1st Ave, Mutare ",
+     "phone": ' +263-20-61766/66837 '},
+
+    {"name": " Mutoko Branch  ",
+     "address": " Shop No. 1, Stand No. 46/47 BJ Shopping Mall, Oliver Newton Rd, Mutoko Township ",
+     "phone": '  '}
+
+   {"name": " Nelson Mandela Branch ",
+     "address": "Corner N. Mandela / L.Takawira Street, Harare",
+     "phone": '+263-4-751513/511 '},
+
+    {"name": " Nkulumane Branch",
+     "address": "Shop 9 Nkulumane, Bulawayo  ",
+     "phone": '+263-9-486118/43 '},
+
+    {"name": " Parirentatwa Branch ",
+     "address": " Parirenyatwa Hospital, Mazowe Street, Harare ",
+     "phone": ' +263-4-795689 Ext: 797 '},
+
+    {"name": " Rusape Branch",
+     "address": "8 Manda Avenue, Rusape ",
+     "phone": ' +263-25-092/3 '},
+
+    {"name": " Southerton Branch ",
+     "address": " Corner Highfield Rd /Lobengula Rd, Harare  ",
+     "phone": ' +263-4-62000/9 '},
+
+    {"name": " Victoria Falls Branch ",
+     "address": " 1 Landela Complex, Victoria Falls  ",
+     "phone": ' +263-13-42631 '},
+
+    {"name": " Westgate Branch  ",
+     "address": " Shop MP1 Westgate Shopping Centre, Harare ",
+     "phone": ' +263-4-334100-3 '},
+
+     {"name": " Zvishavane Branch  ",
+     "address": " Stand No. 22-23, Robert Mugabe Way, Zvishavane ",
+     "phone": ' +263-4-334100-3 '}
+
+
+  ];
+  $scope.orderList = "name";
+}
 
 // Stanbic Bank
 
@@ -844,6 +1148,179 @@ function stanbicBankList($scope) {
     {"name": " Westgate Branch",
      "address": "Shop 14, Main Plaza, Westgate Shopping Centre, Harare",
      "phone": ' 04 332300 / 01 / 02 / 03 / 04 / 05 / 06 / 07 / 08 / 09 '}
+
+  ];
+  $scope.orderList = "name";
+}
+
+// StandardChartered
+
+
+function stanchatBankList($scope) {
+  $scope.branches = [
+    {"name": "Principal Office Branch",
+     "address": "2nd Floor Mutual Centre, P.O. Box 373, Harare",
+     "phone": ' +263 4 752852-8, 253801-8 ',
+
+    {"name": " Priority Banking Centre",
+     "address": "Ground Floor, Old Mutual Centre, Harare",
+     "phone": '  (+263) 4 253801-5 / 758585/8 '},
+
+    {"name": " Avondale Branch",
+     "address": "King George Road, Avondale Shopping Centre ",
+     "phone": ' (+263) 4 335 107 / 334581/2 / 303030 '},
+
+    {"name": " Africa Unity Square Branch",
+     "address": "Cnr Sam Nujoma Street, Nelson Mandela Avenue",
+     "phone": '  (+263) 4 706 321/5'},
+
+    {"name": " Borrowdale Branch",
+     "address": "Suite 33 Sam Levy's Village, P.O Box BW295, Borrowdale, Harare ",
+     "phone": ' (+263) 4 883599-601 '},
+
+    {"name": " Beitbridge Branch",
+     "address": "96 Great North Road, P O Box 28 Beitbridge  ",
+     "phone": '  +263 (0286) 22721/2/3 '},
+
+    {"name": " Belmont Branch ",
+     "address": "Number 51,Plumtree Road, Belmont, Bulawayo, ",
+     "phone": ' +263 9 461582/7'},
+
+    {"name": " Bindura Branch",
+     "address": " 30 Main Street, P O Box 1 Bindura  ",
+     "phone": ' +263 (0271) 6601/ 6602/6603'},
+
+    {"name": " Bulawayo Branch ",
+     "address": " Cnr 8th Avenue/Fife Street  ",
+     "phone": ' +263 (09) 62395 / 76211-8 '},
+
+    {"name": "Chinhoyi Branch",
+     "address": "14 Robson Manyika Road  ",
+     "phone": ' +263 (067) 22 461 / 24041 '},
+
+     {"name": "Chiredzi Branch",
+     "address": "62 Chilonga Drive  ",
+     "phone": ' +263 (031) 5131/2; 5133 '},
+
+    {"name": " Chivhu Branch ",
+     "address": " 542 Terblanche Street, P O Box 11 Chivhu ",
+     "phone": ' +263 (056) 2725/2286 '},
+
+    {"name": " Cripps Road Branch ",
+     "address": " 27A Cripps Road Graniteside, P/Bag 66065 Kopje  ",
+     "phone": ' +263 4 752 706/ 780935 / 775792/ 772021 '},
+
+    {"name": " Gweru Branch  ",
+     "address": " 32 Robert Mugabe Way  ",
+     "phone": ' +263 (054) 224 031/5 '}
+
+    {"name": "Developmental Organisations Centre",
+     "address": "Old Mutual Centre (Ground Floor), Harare ",
+     "phone": '  +263 4 253801/9; 758585/8 ',
+
+    {"name": " Call Banking Centre",
+     "address": "Robert Mugabe Branch, Mezzanine Floor, Cnr Robert Mugabe Road/Orr Street ",
+     "phone": '  +263 4 758078/9 '},
+
+    {"name": " Highlands Branch",
+     "address": "45 Enterprise Road, P O Box HG 98 Highlands ",
+     "phone": ' +263 4 746638; 746769 / 746046  '},
+
+    {"name": " Hwange Branch",
+     "address": "6 Coronation Drive ",
+     "phone": ' +263 (0281) 22 216/ 22 243/ 23 272'},
+
+    {"name": " Kadoma Branch",
+     "address": "48 Cnr Robert Mugabe/Baker Streets  ",
+     "phone": ' +263 (068) 22 001 / 22 002 '},
+
+    {"name": " Kwekwe",
+     "address": "Robert Mugabe Way  ",
+     "phone": ' +263 (055) 22 820/ 24 469/70; 22 828/9'},
+
+    {"name": " Marondera Branch ",
+     "address": "51B The Green, P O Box 85 Marondera",
+     "phone": ' +263 (0279) 23218 / 23 918/ 24868'},
+
+    {"name": " Masvingo Branch",
+     "address": " 22 Robert Mugabe Street  ",
+     "phone": '(039) 264610/2, 264167 / 262288/9'},
+
+    {"name": " Mutare Branch ",
+     "address": " 97 Herbert Chitepo Street  ",
+     "phone": ' (020) 63 041/ 63 063 / 60 616/ 60 669 /65362'},
+
+    {"name": " Mutoko Branch",
+     "address": "Stand No 50 Mutoko, Township P/Bag 503 ",
+     "phone": ' +263 (0272) 2251/2 / 2302 / 2424 '},
+
+    {"name": " Mvurwi Branch ",
+     "address": " 27 Catham Avenue  ",
+     "phone": ' +263 (0277) 2341/3/ 2642/3 '},
+
+    {"name": " Robert Mugabe Road Branch ",
+     "address": " Cnr Robert Mugabe Road/Orr Street  ",
+     "phone": ' +263 4 759 065/71 '},
+
+    {"name": " Rusape Branch ",
+     "address": " 20 Robert Mugabe Street  ",
+     "phone": ' +263 (025) 2594/5; 3489 '}
+
+   {"name": " Southerton Branch ",
+     "address": "20 Paisley Road, P O Box ST 95, Southerton, Harare",
+     "phone": '+263 4 754 461-5 '},
+
+    {"name": " Victoria Falls Branch",
+     "address": "253 Livingstone Way, P O Box 8 Victoria Falls  ",
+     "phone": '+263 (013) 44 248/9; 43 353/4 '},
+
+    {"name": " Westgate Branch ",
+     "address": " Suite 13, Main Plaza, Westgate, Harare ",
+     "phone": ' +263 4 332 207/ 307422/ 307425 '}
+
+  ];
+  $scope.orderList = "name";
+}
+
+
+// Steward
+function stewardBankList($scope) {
+  $scope.branches = [
+    {"name": " Bualawayo Branch",
+     "address": " Cnr Fife Street and 11th Avenue, Bulawayo ",
+     "phone": ' (09) 881904-6 ',
+
+    {"name": " Avondale Branch",
+     "address": "7 King George Road Avondale, Harare",
+     "phone": '  0772197652 / 08677020267 / 04 791444/81 '},
+
+    {"name": "  Masvingo Branch",
+     "address": "33 H. Chitepo Street, Masvingo ",
+     "phone": ' (039) 264310/ 262115 '},
+
+    {"name": " Chegutu Branch",
+     "address": "Stand No 70b King Street, Chegutu",
+     "phone": ' 053 3928'},
+
+    {"name": " Gweru Branch",
+     "address": "Stand No 124 Main Street, Gweru ",
+     "phone": ' (054) 22236 / 0772197654 '},
+
+    {"name": " Mutare Branch",
+     "address": "Cnr H. Chitepo St And "C" Avenue, Mutare  ",
+     "phone": ' (020) 61091/5 / 65693/ 66540'},
+
+    {"name": " Eastgate Branch ",
+     "address": "Corner Robert Mugabe and 3rd Street, Harare ",
+     "phone": ' 08677020267 / 04 791481'},
+
+    {"name": " Joina City Branch",
+     "address": " Econet Shop, Level 1, Joina City, Harare ",
+     "phone": ' 0778 086 599 '},
+
+    {"name": " Kwame Nkurumah Branch ",
+     "address": " 101 Kwame Nkrumah Avenue, Harare  ",
+     "phone": ' (04) 253675 / (04) 791444/81 / (04) 791461 / 08677020267 '}
 
   ];
   $scope.orderList = "name";
