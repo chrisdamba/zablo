@@ -530,6 +530,46 @@ function cbzBankList($scope) {
   ];
   $scope.orderList = "name";
 }
+// Ecobank
+
+function ecoBankList($scope) {
+  $scope.branches = [
+    {"name": " Bindura Branch",
+     "address": "57 Robert Mugabe Street, Bindura",
+     "phone": ' (263 271) 6933, 6943, 6945, 6657 '},
+
+    {"name": " Borrowdale Head Office Branch",
+     "address": "Block A, Sam Levy's office Park, 2 Piers Road, Hararerare",
+     "phone": ' (04)885058, 885231, 885780, 851644-9 '},
+
+    {"name": " Bradfield Branch",
+     "address": "16433, Shop Nos. 3/4, Zonkizizwe Shopping Centre, Hillside, Bulawayo",
+     "phone": ' (09)886207, 886142 '},
+
+    {"name": " Chiredzi Branch",
+     "address": "360, Mopane Drive, Chiredzi",
+     "phone": ' (263-31)2981/2, 3198/9 '},
+
+    {"name": " Chitungwiza Branch",
+     "address": "Shop Number 6, Makoni Multi Offices, Unit G, Chitungwiza",
+     "phone": ' (263-270)30309 30345 30426 '},
+
+    {"name": " Graniteside Branch",
+     "address": "106, Seke Road, Graniteside, Harare",
+     "phone": ' (04)756594-7, 777816 '},
+
+    {"name": " Mbare Branch",
+     "address": "Shop 1-2 Stand Number 29629, Farmer's Market, Mbare",
+     "phone": ' (263-4) 756501/2, 756643 '},
+
+    {"name": " Msasa Branch",
+     "address": "Shop 3, The Collonade, 70 Mutare Road Msasa",
+     "phone": ' (263-4) 447595-7 '}
+
+
+  ];
+  $scope.orderList = "name";
+}
 
 
 // MBCA Bank
