@@ -738,6 +738,191 @@ function cbzBankList($scope) {
      {"name": " CBZ Selous Ave Branch",
      "address": "CBZ Place, 7 Selous Avenue, Harare",
      "phone": ' (04)701389, 774341 '},
+
+    {"name": " Exhibition Park",
+     "address": "Stand 1182nd Avenue,Samora Machel West,Harare",
+     "phone": ' (04)752625, (04)753261 '},
+
+    {"name": " Newlands",
+     "address": "53 Old Enterprise Road,CBZ Corner,Harare",
+     "phone": ' (04)746024 '},
+
+    {"name": " Avondale",
+     "address": "Avondale shopping Centre,Harare",
+     "phone": ' (04)332563, (04)339956 '},
+
+    {"name": " Longcheng",
+     "address": "Shop Number 106,Longchen Plaza,Cnr Mutley Bend & Samora Machel Ave,Harare",
+     "phone": ' '},
+
+    {"name": " Msasa",
+     "address": "Destiny Electronics,62 Mutare Road,MsasaHarare",
+     "phone": ' (04)486386 '},
+
+    {"name": " Southerton",
+     "address": "Corner Paisley Road/Highfield Road,Southerton,Harare",
+     "phone": ' (04)758210, (04)758217 '},
+
+     {"name": "Cripps Road",
+     "address": "Cripps Road,Graniteside,Harare",
+     "phone": ' (04)701389, 774341 '},
+
+    {"name": " University of Zimbabwe Agency",
+     "address": "Students Centre,University of Zimbabwe Campus,Harare",
+     "phone": ' (04)307757, (04)333835 '},
+
+    {"name": " Borrowdale",
+     "address": "Cnr Edinburgh/Campbell Road, Pomona, Borrowdale, Harare",
+     "phone": ' (04)850869, (04)870560'},
+
+    {"name": " Wealth Management Suite",
+     "address": "Cnr Edinburgh/Campbell Road, Pomona, Borrowdale, Harare",
+     "phone": ' (04)886807-11 or 0772 241 279/ 80 '},
+
+    {"name": " Westgate",
+     "address": "Shop Number 9,Fountain Court,Westgate,Harare",
+     "phone": ' (04)339141, (04)339148 '},
+
+    {"name": " MTC Agency",
+     "address": "6 Rainham Road,Willowvale,Harare",
+     "phone": ' (04)666122, (04)666178 '},
+
+    {"name": " TSF Tobacco Agency",
+     "address": "TSF Tobacco Auction Floors,161 Gleneagles Road,Willowvale Harare",
+     "phone": ' (04)664424, (04)664427 '},
+
+     {"name": " Highfield Branch",
+     "address": "Jabavu Drive Highfield,Harare",
+     "phone": ' (04)662348, (04)667584 '},
+
+    {"name": " Boka Tobacco Agency",
+     "address": "Boka Tobacco Auction Floors,Harare",
+     "phone": ' (04)613685, (04)613685 '},
+
+    {"name": " Airport Agency",
+     "address": "International Terminal,Harare International Airport,Harare",
+     "phone": ' (04)585031, (04)585032 '},
+
+    {"name": " Chitungwiza Town Centre",
+     "address": "Shop Number 11B,Chitungwiza Town Centre,Chitungwiza",
+     "phone": ' (04)752421, (04)752425 '},
+
+    {"name": " Chitungwiza Makoni Branch",
+     "address": "60 Jenje Road,Seke North,Seke",
+     "phone": ' (0270)31387, (0270)31392 '},
+
+    {"name": " Norton",
+     "address": "143 Cornmarket Crescent,Norton",
+     "phone": ' (062)3033'},
+
+    {"name": " Marondera",
+     "address": "2137 Second Street,Marondera",
+     "phone": ' (0279)23199, (0279)23243 '},
+
+    {"name": " Murewa",
+     "address": "Shop no. 2 CBZ Building, Stand 175 Murehwa",
+     "phone": ' (0278)22417, (0278)22950 '},
+
+    {"name": " Bindura",
+     "address": "Stand 751York Street,Bindura",
+     "phone": ' (0271)6493, (0271)6140'},
+
+    {"name": " Mvurwi",
+     "address": "26 A Chartham Road, Mvurwi",
+     "phone": ' (0277) 2785, (0277)2992 '},
+
+    {"name": " Karoi",
+     "address": "Stand Number 252,Karoi Township,Karoi",
+     "phone": ' (064)6227, (064)6214 '},
+
+    {"name": " Kariba",
+     "address": "1780 Nyamhunga Township,Kariba",
+     "phone": ' (061)3527, (068)3576'},
+
+    {"name": " Chirundu",
+     "address": "New ZIMRA Border Post Complex,Chirundu",
+     "phone": ' (0637)771, (0637)773 '},
+
+    {"name": " Muzarabani",
+     "address": "COTTCO Depot Muzarabani",
+     "phone": '  '},
+
+     {"name": "Victoria Falls ",
+     "address": "Galleria Complex, , Shop No: 123, Victoria Falls",
+     "phone": ' (013)44480, (013)44481 '},
+
+    {"name": " Tsholotsho",
+     "address": "Stand Number 303,Tsholotsho Rural District Council,Tsholotsho",
+     "phone": ' (0878)220, (0878)320 '},
+
+    {"name": " Belmont",
+     "address": "Cnr Leeds Roads/J. Chinamano, Belmont, Bulawayo",
+     "phone": ' (09)67555, (09)67560'},
+
+    {"name": " Joshua Nkomo Airport Branch",
+     "address": "CBZ House,87 Joshua Mqabuko Nyongolo Nkomo Street, Bulawayo",
+     "phone": ' (09)299085 '},
+
+    {"name": " Zvishavane",
+     "address": "694 Turner Road, Zvishavane",
+     "phone": ' (051)2477, (051)2674 '},
+
+    {"name": " Masvingo",
+     "address": "376 Robert Mugabe Way, Masvingo",
+     "phone": '(039)264704, (039)664749 '},
+
+    {"name": " Nyika",
+     "address": "Nyika Growth Point,Nyika",
+     "phone": ' (0338)469, (0338)298 '},
+
+    {"name": " Gutu",
+     "address": "Beverly Place,Gutu",
+     "phone": ' (030)2279, (030)3276 '},
+
+    {"name": " Mhangura",
+     "address": "169 6th Avenue, Mhangura",
+     "phone": ' (060)5618, (060)5467 '},
+
+    {"name": " Kwekwe",
+     "address": "Stand 6467,Kwekwe",
+     "phone": '(055)22085, (055)21608 '},
+
+    {"name": " Redcliff Sub Branch",
+     "address": "Stand No 482,Redcliff",
+     "phone": ' (055)62132, (055)68362 '},
+
+    {"name": " Chivhu",
+     "address": "Desai Building,383 York Street,Chivhu",
+     "phone": ' (056)3001, (056)3007 '},
+
+    {"name": "Rusape",
+     "address": "18 Robert Mugabe Street,Stand Number 10796,Shop 3,Rusape",
+     "phone": '(025)3570, (025)3714 '},
+
+    {"name": " Mutare",
+     "address": "31 Second Street,Mutare",
+     "phone": '(020)64728, (020)64755 '},
+
+    {"name": " Chimanimani",
+     "address": "225 Chimanimani Township,Chimanimani",
+     "phone": ' (026)2819, (026)2795 '},
+
+    {"name": " Chipinge",
+     "address": "76 Main Street,Chipinge",
+     "phone": ' (0227)3314,(0227)2478 '},
+
+    {"name": " Checheche",
+     "address": "Shop No 1J,Stand Number 229,Checheche Complex,Checheche",
+     "phone": '  '},
+
+    {"name": " Chiredzi",
+     "address": "55 Chilonga Drive, Chiredzi",
+     "phone":'(031)5193, (031)5109 '},
+
+    {"name": " Beitbridge",
+     "address": "Shop No 7,Beitbridge Shopping Mall,Beitbridge",
+     "phone": ' (086)22657, (086)22690'}
+
   ];
   $scope.orderList = "name";
 }
@@ -768,6 +953,14 @@ function ecoBankList($scope) {
      "address": "Shop Number 6, Makoni Multi Offices, Unit G, Chitungwiza",
      "phone": ' (263-270)30309 30345 30426 '},
 
+    {"name": " Joina City Branch",
+     "address": "Shop U14, Upper Ground Floor. Cnr Innez Terrace/Jason Moyo Avenue ",
+     "phone": '(263-4) 777491-3 '},
+
+    {"name": " Kwekwe Branch",
+     "address": "Ground Floor, Beverley House, Robert Mugabe Way",
+     "phone": '(263-55) 25393-6 '},
+
     {"name": " Graniteside Branch",
      "address": "106, Seke Road, Graniteside, Harare",
      "phone": ' (04)756594-7, 777816 '},
@@ -779,7 +972,6 @@ function ecoBankList($scope) {
     {"name": " Msasa Branch",
      "address": "Shop 3, The Collonade, 70 Mutare Road Msasa",
      "phone": ' (263-4) 447595-7 '}
-
 
   ];
   $scope.orderList = "name";
@@ -909,106 +1101,6 @@ function mbcaBankList($scope) {
   $scope.orderList = "name";
 }
 
-// Metropolitan
-
-function metroBankList($scope) {
-  $scope.branches = [
-
-    {"name": " Beitbridge Branch",
-     "address": "40/41 Living Waters Centre",
-     "phone": ' 0779745989'},
-
-    {"name": " Belgravia Branch",
-     "address": "8 Lanark Road, Belgravia, Harare",
-     "phone": '(04)702257, 703335 '},
-
-    {"name": " Rubi River Bridge Branch",
-     "address": "Bubi RDC Complex, Turk Mine ",
-     "phone": ' (085)526, 577 '},
-
-    {"name": " Bulawayo Branch",
-     "address": "4 East End Building, Cnr. Robert Mugabe/9th Avenue, Bulawayo",
-     "phone": ' : (09)880697, 880767 '},
-
-    {"name": " Chimanimani Branch",
-     "address": "Hotsprings Resort, Chimanimani ",
-     "phone": ' 0744598202, 0774598207  '},
-
-    {"name": " Chitungwiza  Agency Branch",
-     "address": "Std 213646 Zengeza 2, Chitungwiza  ",
-     "phone": ' (0270),23504 '},
-
-    {"name": " Chitungwiza Branch ",
-     "address": "Stand 16110,Makoni Shopping Centre, Seke, Chitungwiza",
-     "phone": ' (0270)31362, 31503, 31519 '},
-
-    {"name": " Gwanda Branch",
-     "address": "185 Soudan Street ",
-     "phone": ' : (0284)24241 / 42 / 43 / 44 '},
-
-    {"name": " Gweru Branch",
-     "address": "Gweru Polytechnic Campus, 137 Harare Road, Gweru   ",
-     "phone": '0772233471 '},
-
-    {"name": "Gweru Main Branch",
-     "address": "66 3rd Street ",
-     "phone": '  (054)229979  '},
-
-    {"name": "Harare Polytechnic Branch ",
-     "address": "Herbert Chitepo West Avenue, Harare  ",
-     "phone": ' (04)250393, 250423 '},
-
-    {"name": " Head Office Branch ",
-     "address": "3 Central Avenue, Harare Central, Harare  ",
-     "phone": '   (04)705861, 706091 '},
-
-    {"name": " Kwame Nkurumah Branch  ",
-     "address": "25 Kwame Nkrumah Avenue  ",
-     "phone": '   (04)773401, 773546, 774964 '},
-
-    {"name": "Kwekwe Branch  ",
-     "address": "Kwekwe Polytechnic, 1 Railway Road, Kwekwe   ",
-     "phone": ' (055)25273  '},
-
-    {"name": "  Machipisa Branch ",
-     "address": "Stand 1498, Tondori Building, Harare   ",
-     "phone": '  (04)666663   '},
-
-    {"name": " Masvingo Agency Branch  ",
-     "address": " Masvingo Polytechnic, Beitbridge Road, Masvingo ",
-     "phone": '  (039)266206 / 07 / 08   '},
-
-    {"name": "Masvingo Main Branch ",
-     "address": "58/59 Hellet Street  ",
-     "phone": '  (039)266727 / 28 / 29 / 30 '},
-
-    {"name": " Mbare Branch ",
-     "address": "8 Roden Street, Magaba  ",
-     "phone": '   0779744588  '},
-
-    {"name": " Murewa Branch ",
-     "address": "Stand 564, Murewa   ",
-     "phone": '   (078)22747 / 48  '},
-
-    {"name": "Mutare Branch  ",
-     "address": "Shop 1 Zimre Centre, Cnr. Herbert Chitepo/5th Street, Mutare   ",
-     "phone": '  (020)69350 '},
-
-    {"name": "  Mutoko Branch ",
-     "address": "Shop 1, BJ Mall, Stand 46/47 Oliver Newton Road, Mutoko   ",
-     "phone": '   (0272)2631, 2763, 2789 '},
-
-    {"name": " Sam Nujoma Street Branch  ",
-     "address": " Old Mutual House, 18 Sam Nujoma Street, Harare ",
-     "phone": '   (04)708487, 799121 '},
-
-    {"name": " Southerton Branch  ",
-     "address": " Cnr. Paisley/Highfield Road ",
-     "phone": '    (04)2911134, 2911139  '}
-    
-  ];
-  $scope.orderList = "name";
-}
 
 // NMB
 
