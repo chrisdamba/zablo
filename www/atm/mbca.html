@@ -10,7 +10,7 @@
         <ons-col align="center">
 
         <ons-list class="listing">
-                <div id="branches" ng-app ng-controller="mbcaAtmList">
+                <div id="branches" ng-app ng-controller="mbcaAtms">
                   <input type="text" id="query" ng-model="query" placeholder='Search for Branches...'/>
                     <p class="count">Total branches: <span>{{branches.length}}</span></p>
                     <ons-list-item ng-repeat="branch in branches | filter:query | orderBy: orderList">

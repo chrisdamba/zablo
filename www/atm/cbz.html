@@ -2,7 +2,7 @@
     <ons-toolbar>
         <div class="left">
             <ons-back-button>Back</ons-back-button>
-            <div class="center">Example Bank 1</div>
+            <div class="center">CBZ Bank</div>
         </div>
     </ons-toolbar>
 
@@ -10,12 +10,13 @@
         <ons-col align="center">
 
         <ons-list class="listing">
-                <div id="branches" ng-app ng-controller="ex1AtmList">
+                <div id="branches" ng-app ng-controller="cbzAtms">
                   <input type="text" id="query" ng-model="query" placeholder='Search for Branches...'/>
                     <p class="count">Total branches: <span>{{branches.length}}</span></p>
                     <ons-list-item ng-repeat="branch in branches | filter:query | orderBy: orderList">
                       <h3>{{branch.name}}</h3>
                       <strong>{{branch.address}}</strong>
+                      
                     </ons-list-item>  
                 </div>
         </ons-list>
