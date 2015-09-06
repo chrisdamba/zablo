@@ -800,7 +800,7 @@ function nmbAtms($scope) {
 
     {"name": "Angwa City Branch",
      "address": "Mezzanine Floor, Angwa City, Angwa Street, Harare",
-     "phone": ' (04)759803, 759805, 759825, 798865 / 66 / 67, 798869 ',
+     "phone": ' (04)759803, 759805, 759825, 798865 / 66 / 67, 798869 '},
 
     {"name": " Avondale Branch",
      "address": "PaSangano Complex, 20 King George Road, Harare",
@@ -1087,7 +1087,7 @@ function stanchatAtms($scope) {
 
     {"name": "Principal Office Branch",
      "address": "2nd Floor Mutual Centre, P.O. Box 373, Harare",
-     "phone": ' +263 4 752852-8, 253801-8 ',
+     "phone": ' +263 4 752852-8, 253801-8 '},
 
     {"name": " Priority Banking Centre",
      "address": "Ground Floor, Old Mutual Centre, Harare",
@@ -1143,7 +1143,7 @@ function stanchatAtms($scope) {
 
     {"name": "Developmental Organisations Centre",
      "address": "Old Mutual Centre (Ground Floor), Harare ",
-     "phone": '  +263 4 253801/9; 758585/8 ',
+     "phone": '  +263 4 253801/9; 758585/8 '},
 
     {"name": " Call Banking Centre",
      "address": "Robert Mugabe Branch, Mezzanine Floor, Cnr Robert Mugabe Road/Orr Street ",
@@ -1216,7 +1216,7 @@ function stewardAtms($scope) {
 
     {"name": " Bualawayo Branch",
      "address": " Cnr Fife Street and 11th Avenue, Bulawayo ",
-     "phone": ' (09) 881904-6 ',
+     "phone": ' (09) 881904-6 '},
 
     {"name": " Avondale Branch",
      "address": "7 King George Road Avondale, Harare",
@@ -1235,7 +1235,7 @@ function stewardAtms($scope) {
      "phone": ' (054) 22236 / 0772197654 '},
 
     {"name": " Mutare Branch",
-     "address": "Cnr H. Chitepo St And "C" Avenue, Mutare  ",
+     "address": "Cnr H. Chitepo St And \"C\" Avenue, Mutare  ",
      "phone": ' (020) 61091/5 / 65693/ 66540'},
 
     {"name": " Eastgate Branch ",
@@ -1313,7 +1313,7 @@ function zbAtms($scope) {
 
     {"name": "Msasa Branch",
      "address": "Colonade Complex Beverley West, P O Box AY160, Amby Msasa, Harare",
-     "phone": ' (04) 486427/9 ',
+     "phone": ' (04) 486427/9 '},
 
     {"name": " Mutare Branch",
      "address": "88 Herbert Chitepo Street, P O Box 646, Mutare ",
