@@ -1,0 +1,26 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+            <div class="center">CBZ Bank</div>
+        </div>
+    </ons-toolbar>
+
+      <ons-row style="padding: 0">
+        <ons-col align="center">
+
+        <ons-list class="listing">
+                <div id="branches" ng-app ng-controller="cbzBankList">
+                  <input type="text" id="query" ng-model="query" placeholder='Search for Branches...'/>
+                    <p class="count">Total branches: <span>{{branches.length}}</span></p>
+                    <ons-list-item ng-repeat="branch in branches | filter:query | orderBy: orderList">
+                      <h3>{{branch.name}}</h3>
+                      <strong>{{branch.address}}</strong>
+                      <p>Tel : {{branch.phone}}</p>
+                    </ons-list-item>  
+                </div>
+        </ons-list>
+
+        </ons-col>
+      </ons-row>
+</ons-page>

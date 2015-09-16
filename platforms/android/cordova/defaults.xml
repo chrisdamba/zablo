@@ -22,5 +22,5 @@
         version   = "2.0.0">
 
     <!-- Preferences for Android -->
-    <preference name="loglevel" value="DEBUG" />
+    <preference name="loglevel" value="RELEASE" />
 </widget>
