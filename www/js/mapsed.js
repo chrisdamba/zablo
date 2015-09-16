@@ -25,7 +25,7 @@
 	$.fn.mapsed = function (options) {
 		// consts
 		// - Somewhere near the City Varieties ...
-		var DEFAULT_CENTER = new google.maps.LatLng(53.798823, -1.5426760000000286);
+		var DEFAULT_CENTER = new google.maps.LatLng(-20.330509, 30.047291);
 		var DEFAULT_ZOOM = 10;
 
 		var BUTTONS = {
@@ -106,17 +106,17 @@
 				enabled: false,
 
 				// Placeholder text for the search box
-				placeholder: "e.g. Hotels in Leeds",
+				placeholder: "e.g. Banks in Harare",
 
 				// Initialises the place search with a given text search
 				// ... (i.e. once the map has been created, the results for this string are also shown)
-				initSearch: "Hotels in Leeds",
+				initSearch: "Banks in Harare",
 
 				// Performs a search when geo-location is activated.  This can be either 
 				// on load (see "findGeoOnLoad" option) or when the Geo location button is clicked
 				// {POSITION} is replaced with the detected Geo location position
 				// "geoSearch" supersedes any "initSearch" specified (if the user enables Geo location for the map)
-				geoSearch: "5aside football near {POSITION}"
+				geoSearch: "ATM booths near {POSITION}"
 			},
 
 			// Event when user clicks the "Select" button
