@@ -25,7 +25,7 @@
 	$.fn.mapsed = function (options) {
 		// consts
 		// - Somewhere near the City Varieties ...
-		var DEFAULT_CENTER = new google.maps.LatLng(-20.330509, 30.047291);
+		var DEFAULT_CENTER = new google.maps.LatLng(-17.82922, 31.053961);
 		var DEFAULT_ZOOM = 10;
 
 		var BUTTONS = {
