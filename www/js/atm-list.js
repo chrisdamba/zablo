@@ -632,6 +632,10 @@ function cbzAtms($scope) {
 function ecobankAtms($scope) {
   $scope.branches = [
 
+    {"name": " Avenues Clinic",
+     "address": "Mazowe Street Hahare",
+     "phone": '  '},
+
     {"name": " Bindura Branch",
      "address": "57 Robert Mugabe Street, Bindura",
      "phone": ' (263 271) 6933, 6943, 6945, 6657 '},

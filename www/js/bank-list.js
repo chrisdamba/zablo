@@ -938,7 +938,7 @@ function ecoBankList($scope) {
      "phone": ' (263 271) 6933, 6943, 6945, 6657 '},
 
     {"name": " Borrowdale Head Office Branch",
-     "address": "Block A, Sam Levy's office Park, 2 Piers Road, Hararerare",
+     "address": "Block A, Sam Levy's Office Park, 2 Piers Road, Harare",
      "phone": ' (04)885058, 885231, 885780, 851644-9 '},
 
     {"name": " Bradfield Branch",
